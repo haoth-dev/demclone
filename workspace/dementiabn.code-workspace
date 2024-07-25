@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../heera"
+		},
+		{
+			"path": "../../yuki"
+		},
+		{
+			"path": "../../../../../test_one"
+		}
+	],
+	"settings": {
+	}
+}

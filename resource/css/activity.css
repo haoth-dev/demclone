@@ -1,0 +1,48 @@
+.activity-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+.activity-card-icon {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.activity-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.activity-card-details {
+    flex: 1 1 auto;
+}
+
+.activity-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.activity-description {
+    margin: 5px 0 0;
+}
+
+.activity-time {
+    font-size: 0.875rem;
+    color: #777;
+}
+
+.activity-comment-number {
+    font-style: italic;
+    font-size: 0.875rem;
+    color: #777;
+}
+
+.activity-card-link {
+    flex: 0 0 auto;
+}

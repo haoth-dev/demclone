@@ -1,0 +1,36 @@
+.floating-label {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.floating-label input,
+.floating-label textarea {
+    border-radius: 0.25rem;
+    padding: 1rem 0.75rem 0.25rem 0.75rem;
+}
+
+.floating-label label {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    font-size: 1rem;
+    color: #6c757d;
+    transition: all 0.2s ease-in-out;
+}
+
+.floating-label input:focus+label,
+.floating-label input:not(:placeholder-shown)+label,
+.floating-label textarea:focus+label,
+.floating-label textarea:not(:placeholder-shown)+label {
+    top: -0.1rem;
+    left: 0.75rem;
+    font-size: 0.75rem;
+    color: #495057;
+}
+
+.floating-label input:focus,
+.floating-label textarea:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}

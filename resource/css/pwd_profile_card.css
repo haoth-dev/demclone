@@ -1,0 +1,142 @@
+/* Front Side Card */
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    /* Center the card horizontally */
+}
+
+.photo-column {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10%;
+    /* Make the photo circular */
+}
+
+.details-column {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-item {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.details-item h3 {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.details-item p {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.qr-code-column {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.qr-code-column h3 {
+    margin: 0 0 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+.qr-code {
+    width: 80%;
+    height: auto;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+}
+
+/* Back Side Card */
+.back-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    /* Center the card horizontally */
+    padding: 20px;
+    text-align: center;
+}
+
+.company-logo {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.company-name {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.company-tagline {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.back-qr-code-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.back-qr-code-column h3 {
+    margin: 0 0 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+.back-qr-code {
+    width: 80%;
+    height: auto;
+}
+
+.company-website {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+}

@@ -1,0 +1,283 @@
+/* dementiaBN custom */
+.login {
+    padding-left: 15px;
+    font-size: 100%;
+
+}
+
+.login p {
+    font-size: 100%;
+}
+
+.forgotPassword {
+    text-align: right;
+    font-size: 73%;
+}
+
+
+
+.std-btn {
+    font-size: 100%;
+}
+
+.img-cover {
+    object-fit: cover;
+    object-position: center;
+}
+
+.clickable-td {
+    position: relative;
+}
+
+.clickable-td a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.custom-card {
+    background-color: transparent;
+    color: white;
+
+    border-radius: 5px;
+}
+
+.custom-card:hover {
+    background-color: transparent;
+    color: #9b7ebb;
+
+    border-radius: 5px;
+}
+
+
+.custom-card .dropdown-item {
+    display: block;
+    background-color: transparent;
+    width: 100%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.custom-card .dropdown-item:hover {
+    background-color: #9b7ebb;
+    display: block;
+    width: 100%;
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* New styles for the collapse.show class */
+.collapse.show {
+    background-color: transparent;
+    /* Custom background color */
+
+    /* Optional: Add padding if needed */
+    border-radius: 6px;
+    /* Optional: Add border-radius if needed */
+}
+
+
+
+.btn-transparent {
+    background-color: transparent;
+    border: none;
+    padding-bottom: 20px;
+}
+
+.btn-icon-large i {
+    font-size: 1.5rem;
+    /* Adjust size as needed */
+}
+
+#loading-spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+/* bootstrap custom */
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #9b7ebb;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #9b7ebb;
+    border-color: #9b7ebb;
+}
+
+.page-item .page-link:hover {
+    z-index: 1;
+    color: #9b7ebb;
+    /* Font color on hover */
+    background-color: #ffeeff;
+    /* Background color on hover */
+    border-color: #9b7ebb;
+    /* Border color on hover */
+}
+
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #495057;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #9b7ebb;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.center-image {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.bg-primary {
+    background-color: #9b7ebb !important;
+}
+
+.btn-primary {
+    background-color: #9b7ebb;
+    border-color: #9b7ebb;
+}
+
+.form-control {
+    height: calc(2.25rem + 13px);
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: #9b7ebb;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+.center-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    height: 100%;
+}
+
+a.btn.btn-primary.floating-button:active {
+    background-color: #9b7ebb;
+    border-color: #9b7ebb;
+    box-shadow: none;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #fff;
+    background-color: #9b7ebb;
+    border-color: #9b7ebb;
+}
+
+a.btn.btn-primary.floating-button {
+    background-color: #9b7ebb;
+    border-color: #9b7ebb;
+}
+
+.btn-outline-primary {
+    color: #9b7ebb;
+    background-color: transparent;
+    background-image: none;
+    border-color: #9b7ebb;
+}
+
+.btn-outline-primary:visited {
+    color: #9b7ebb;
+    background-color: transparent;
+    background-image: none;
+    border-color: #9b7ebb;
+}
+
+.btn-outline-primary:hover {
+    color: #9b7ebb;
+    background-color: transparent;
+    background-image: 9b7ebb;
+    border-color: #9b7ebb;
+}
+
+
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: #9b7ebb;
+    border-color: #9b7ebb;
+}
+
+.btn-primary:hover {
+    background-color: #9b7ebb;
+    border-color: #9b7ebb;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+
+
+.remove-btn:hover {
+    background-color: #ff4c4c;
+    border-color: #ff4c4c;
+}
+
+
+.offcanvas-body {
+    background-color: #9b7ebb;
+}
+
+.offcanvas-body table td {
+    background-color: #9b7ebb;
+    color: white;
+}
+
+.offcanvas-body table td a {
+    color: white;
+}
+
+
+.offcanvas-body table td:hover {
+    background-color: white;
+    color: #9b7ebb;
+}
+
+.offcanvas-body table td:hover a {
+    text-decoration: none;
+    color: #9b7ebb;
+}
+
+
+
+
+/* bootstrap custom */

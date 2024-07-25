@@ -1,0 +1,82 @@
+.profile-card {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 600px;
+    /* Set a fixed width for the profile card */
+}
+
+.photo-column {
+    flex: 1;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.details-column {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.details-item {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.details-item h3 {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.details-item p {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.qr-code-column {
+    flex: 1;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.qr-code-column h3 {
+    margin: 0 0 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+.qr-code {
+    width: 80%;
+    height: auto;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+}
